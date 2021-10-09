@@ -16,6 +16,7 @@ const Mailer = () => {
 
     return (
         <div>
+            <h1 className='text-center'>Say Hello !!</h1>
             <div className="container">
                 <form onSubmit={sendEmail}>
                     <div className='col-8 pt-2 form-group mx-auto'>
